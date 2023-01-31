@@ -1,5 +1,7 @@
 <script>
 
+import TopHeader from './TopHeader.vue';
+
 
 
 export default {
@@ -8,7 +10,9 @@ export default {
             navList: ['Home', 'Recipes', ' Places', 'Blog', 'About', 'Contact']
         }
 
-    }
+    },
+
+    components: { TopHeader }
 
 }
 
@@ -17,6 +21,8 @@ export default {
 <template>
 
     <header>
+
+        <TopHeader></TopHeader>
 
         <div><img src="../assets/avada-food-logo.png" alt=""></div>
         <div class="nav-list">
@@ -39,10 +45,6 @@ img {
     width: 100px;
 }
 
-ul {
-    display: flex;
-}
-
 nav a {
 
     padding: 10px;
@@ -51,9 +53,7 @@ nav a {
 
 }
 
-li {
-    list-style-type: none;
-}
+
 
 .fa-solid {
 

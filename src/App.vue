@@ -1,18 +1,28 @@
 <script>
 
 import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 
 export default {
-  components: { AppHeader }
+  components: { AppHeader, AppMain }
 }
 </script>
 
 <template>
 
   <AppHeader></AppHeader>
+  <AppMain></AppMain>
 
 </template>
 
-<style scoped>
+<style lang="scss">
+ul {
+  display: flex;
 
+  li {
+    list-style-type: none;
+  }
+
+
+}
 </style>
