@@ -29,7 +29,7 @@ export default {
             <nav>
                 <ul>
                     <li v-for="item in navList"><a href="#">{{ item }}</a></li>
-                    <li class="d-inline"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></li>
+                    <li><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></li>
 
                 </ul>
             </nav>
