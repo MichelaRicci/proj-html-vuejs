@@ -10,7 +10,7 @@ export default {
 
 <template>
 
-    <div class="nav-list">
+    <div class="container nav-list">
         <nav>
             <ul class="nav-left">
                 <li><a href="#">Download App<span>iOS</span></a></li>
