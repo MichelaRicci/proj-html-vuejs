@@ -1,8 +1,8 @@
 import { reactive } from "vue"
 
-const foodieJournal = reactive({
+export const store = reactive({
 
-  foodieJournal: [
+  foodies: [
     {
       img: 'assets/img/single-post.jpg',
       title: 'Food Corner: Top Japanese Restaurants for Sushi',
@@ -28,5 +28,3 @@ const foodieJournal = reactive({
   ],
 })
 
-
-export { foodieJournal }

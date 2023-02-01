@@ -12,9 +12,14 @@ export default {
 
 <template>
 
-    <AppCard>
+    <div class="d-flex justify-content-between">
 
-    </AppCard>
+        <AppCard></AppCard>
+
+        <AppCard></AppCard>
+
+        <AppCard></AppCard>
+    </div>
 
 
 </template>

@@ -1,12 +1,12 @@
 <script>
-import { foodieJournal } from '../../data-card';
+import { store } from '../../data-card';
 
 
 export default {
     name: 'AppCard',
 
     data() {
-        return { foodieJournal }
+        return { store }
     },
 
     props: {
@@ -17,12 +17,6 @@ export default {
         text: String
     },
 
-    methods: {
-        imgSrc: function (img) {
-            return new URL(`../../assets/img/${img}.jpg`, import.meta.url).href;
-        }
-    }
-
 
 }
 
@@ -31,7 +25,8 @@ export default {
 <template>
 
     <div>
-        <img :src="imgSrc(foodieJournal.img)" :alt="foodieJournal.title">
+
+        <img :src="`../../assets/img/${img}.jpg`" :alt="title">
         <h4>{{ title }}</h4>
         <p>{{ author }} <span>{{ date }}</span></p>
     </div>
