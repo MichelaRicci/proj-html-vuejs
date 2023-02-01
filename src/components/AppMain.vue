@@ -1,5 +1,7 @@
 <script>
 
+import AppJournal from './main-section/AppJournal.vue'
+
 export default {
     data() {
         return {
@@ -8,6 +10,8 @@ export default {
 
     },
 
+    components: { AppJournal }
+
 
 }
 
@@ -15,8 +19,10 @@ export default {
 
 <template>
 
+    <AppJournal></AppJournal>
+
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>
