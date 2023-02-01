@@ -10,8 +10,8 @@ export default {
 
 <template>
 
-    <div class="container nav-list">
-        <nav>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
             <ul class="nav-left">
                 <li><a href="#">Download App<span>iOS</span></a></li>
                 <li><a href="#">Advertise with us</a></li>
@@ -29,11 +29,6 @@ export default {
 </template>
 
 <style lang='scss' scoped>
-nav {
-    display: flex;
-
-}
-
 nav a {
 
     padding: 10px;

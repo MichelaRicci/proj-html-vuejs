@@ -1,6 +1,7 @@
 <script>
 
-import TopHeader from './TopHeader.vue';
+import TopHeader from './header-section/TopHeader.vue'
+import Jumbotron from './header-section/Jumbotron.vue'
 
 
 
@@ -12,7 +13,7 @@ export default {
 
     },
 
-    components: { TopHeader }
+    components: { TopHeader, Jumbotron }
 
 }
 
@@ -24,9 +25,9 @@ export default {
 
         <TopHeader></TopHeader>
 
-        <div><img src="../assets/avada-food-logo.png" alt=""></div>
-        <div class="nav-list">
-            <nav>
+        <div><img src="../assets/img/avada-food-logo.png" alt=""></div>
+        <div>
+            <nav class="d-flex justify-content-around">
                 <ul>
                     <li v-for="item in navList"><a href="#">{{ item }}</a></li>
                     <li><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></li>
@@ -34,6 +35,8 @@ export default {
                 </ul>
             </nav>
         </div>
+
+        <Jumbotron></Jumbotron>
 
 
     </header>
@@ -47,7 +50,7 @@ img {
 
 nav a {
 
-    padding: 10px;
+    padding: 40px;
     text-decoration: none;
     color: #67615A;
 
