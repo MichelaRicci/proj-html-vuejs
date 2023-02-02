@@ -18,6 +18,13 @@ export default {
 </template>
 
 <style lang="scss">
+@use './assets/scss/partials/variables' as *;
+@use './assets/scss/style.scss' as *;
+
+#app {
+  background-color: $lightgray;
+}
+
 ul {
   display: flex;
 
