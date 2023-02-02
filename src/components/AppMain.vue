@@ -1,7 +1,9 @@
 <script>
 
+
 import AppJournal from './main-section/AppJournal.vue'
 import AppRecipes from './main-section/AppRecipes.vue';
+import CulinaryCollection from './main-section/CulinaryCollection.vue';
 
 export default {
     data() {
@@ -11,7 +13,7 @@ export default {
 
     },
 
-    components: { AppJournal, AppRecipes }
+    components: { AppJournal, AppRecipes, CulinaryCollection }
 
 
 }
@@ -23,6 +25,9 @@ export default {
     <app-journal></app-journal>
 
     <app-recipes></app-recipes>
+
+    <culinary-collection></culinary-collection>
+
 
 </template>
 

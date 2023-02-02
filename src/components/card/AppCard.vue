@@ -31,8 +31,8 @@ export default {
 </script>
 
 <template>
-    <div>
-        <img :src="imgSrc" :alt="title">
+    <div class="bg-white">
+        <img class=" img-fluid" :src="imgSrc" :alt="title">
         <h4>{{ title }}</h4>
         <p>{{ author }} <span>{{ date }}</span></p>
         <p>{{ tags }}</p>

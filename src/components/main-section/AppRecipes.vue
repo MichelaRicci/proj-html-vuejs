@@ -19,12 +19,12 @@ export default {
 
     <h4 class="text-uppercase">Popular Recipes</h4>
 
-    <div class="d-flex flex-wrap container">
+    <div class="d-flex container">
 
-        <recipe-article></recipe-article>
-        <div class="col-6 flex-wrap">
+        <recipe-article class="col-6"></recipe-article>
+        <div class="d-flex flex-wrap col-6">
             <app-card v-for="recipe in recipes" :key="recipe.id" :img="recipe.img" :alt="recipe.title"
-                class="row-cols-3">
+                class="col-6 p-2">
             </app-card>
         </div>
 
