@@ -27,7 +27,7 @@ export default {
   background-color: $lightgray;
 }
 
-nav a {
+ul a {
 
   padding: 40px;
   text-decoration: none;

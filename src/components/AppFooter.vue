@@ -5,10 +5,8 @@ export default {
 
     data() {
         return {
-            footerList: ['Recipes', ' Places', 'Blog', 'About', 'Contact']
-
-
-
+            footerList: ['Recipes', ' Places', 'Blog', 'About', 'Contact'],
+            contacts: ['775 New York Ave, Brooklyn, Kings, New York 11203', '+ 0100-505-0000', 'info@your-domain.com']
         }
 
     },
@@ -33,6 +31,9 @@ export default {
             </nav>
             <div>
                 <h6 class="text-uppercase">Contact</h6>
+                <ul class="d-flex flex-column">
+                    <li v-for=" contact in contacts"><a href="#">{{ contact }}</a></li>
+                </ul>
 
             </div>
             <div>
