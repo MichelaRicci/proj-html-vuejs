@@ -128,8 +128,9 @@ export const FoodCorner = [
   }
 ];
 
-export const articleGallery = [
+export const articlesGallery = [
   {
+    id: '1',
     img: 'fi-roundup.jpg',
     title: 'Roundup: My New Favourite Recipes For Healthy Living',
     author: 'By admin',
@@ -137,12 +138,14 @@ export const articleGallery = [
 
   },
   {
+    id: '2',
     img: 'fi-toasts.jpg',
     title: 'Why These Toasts with Tea are My New Favorite',
     author: 'By admin',
     date: 'March 25th, 2019'
   },
   {
+    id: '3',
     img: 'fi-organic-breakfast.jpg',
     title: 'Organic Choices For Healthier Living',
     author: 'By admin',
@@ -150,11 +153,29 @@ export const articleGallery = [
 
   },
   {
+    id: '4',
     img: 'fi-korean.jpg',
     title: 'Meal Prep: Korean Bibimbap with Kimchi',
     author: 'By admin',
     date: 'March 25th, 2019'
 
-  }
+  },
+  {
+    id: '5',
+    img: 'fi-street-food.jpg',
+    title: 'Exploring Street Food in Bangkok',
+    author: 'By admin',
+    date: 'March 25th, 2019'
+
+  },
+  {
+    id: '6',
+    img: 'fi-water-side-rest.jpg',
+    title: '5 Waterside Restaurants in Istanbul for Special Events',
+    author: 'By admin',
+    date: 'March 25th, 2019'
+
+  },
+
 ];
 

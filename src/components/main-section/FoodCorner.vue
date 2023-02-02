@@ -16,9 +16,9 @@ export default {
 <template>
 
     <div class="d-flex">
-        <app-card v-for="article in FoodCorner" :key="article.title" :img="article.img" :alt="article.title"
-            :title="article.title" :author="article.author" :date="article.date" :text="article.text"
-            class="col-7 bg-white"></app-card>
+        <app-card class="col-7 bg-white" v-for="article in FoodCorner" :key="article.title" :img="article.img"
+            :alt="article.title" :title="article.title" :author="article.author" :date="article.date"
+            :text="article.text"></app-card>
         <div class="col-5 px-5">
             <img class="img-fluid" src="../../assets/img/ad-bg.jpg" alt="ad-bg">
             <img class="img-fluid" src="../../assets/img/singapore.jpg" alt="singapore">
