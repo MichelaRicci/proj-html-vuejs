@@ -52,7 +52,7 @@ export const recipes = [
   {
     id: '6',
     img: 'quick-summer-drink.jpg',
-    title: 'uick-summer-drink'
+    title: 'quick-summer-drink'
   },
   {
     id: '7',
@@ -178,4 +178,30 @@ export const articlesGallery = [
   },
 
 ];
+
+export const picsGallery = [
+  {
+    id: '1',
+    img: 'yogurt-nan.jpg',
+    name: 'yogurt-nan'
+  },
+  {
+    id: '2',
+    img: 'mixed-fruits-big.jpg',
+    title: 'mixed-fruits'
+  },
+  {
+    id: '3',
+    img: 'r-rachel-park-big.jpg',
+    title: 'r-rachel-park',
+  },
+  {
+    id: '4',
+    img: 'r-michelle-tsang-big.jpg',
+    title: 'r-michelle-tsang',
+  }
+
+
+];
+
 

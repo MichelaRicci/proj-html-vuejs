@@ -7,6 +7,7 @@ import CulinaryCollection from './main-section/CulinaryCollection.vue';
 
 import FoodCorner from './main-section/FoodCorner.vue';
 import ArticlesGallery from './main-section/ArticlesGallery.vue';
+import PicsGallery from './main-section/PicsGallery.vue';
 
 export default {
     data() {
@@ -16,7 +17,7 @@ export default {
 
     },
 
-    components: { AppJournal, AppRecipes, CulinaryCollection, FoodCorner, ArticlesGallery }
+    components: { AppJournal, AppRecipes, CulinaryCollection, FoodCorner, ArticlesGallery, PicsGallery }
 
 
 }
@@ -47,6 +48,8 @@ export default {
     <food-corner></food-corner>
 
     <articles-gallery></articles-gallery>
+
+    <pics-gallery></pics-gallery>
 
 
 </template>
