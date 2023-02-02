@@ -14,6 +14,9 @@ export default {
                 },
                 {
                     iconName: 'fab fa-twitter',
+                },
+                {
+                    iconName: 'fab fa-youtube',
                 }
             ]
         }

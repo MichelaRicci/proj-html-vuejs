@@ -21,9 +21,18 @@ export default {
 
     <div class="container">
 
-        <div class="d-flex row-cols-4">
+        <div class="d-flex row-cols-4 footer">
 
-            <div><img src="../assets/img/avada-food-logo-footer.png" alt="logo"></div>
+            <div>
+                <img src="../assets/img/avada-food-logo-footer.png" alt="logo">
+                <ul class="footer-icons">
+                    <li><a href="#"><font-awesome-icon icon="fab fa-facebook" /></a></li>
+                    <li><a href="#"><font-awesome-icon icon="fab fa-instagram" /></a></li>
+                    <li><a href="#"><font-awesome-icon icon="fab fa-twitter" /></a></li>
+                    <li><a href="#"><font-awesome-icon icon="fab fa-youtube" /></a></li>
+                </ul>
+            </div>
+
             <nav>
                 <ul class="d-flex flex-column">
                     <li v-for=" item in footerList"><a href="#">{{ item }}</a></li>
@@ -54,11 +63,26 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables';
 
+.footer {
+    padding-top: 30px;
+}
+
 h6 {
     color: teal;
 }
 
 .app>img {
     width: 200px;
+}
+
+.footer-icons {
+
+    padding-top: 20px;
+
+
+    a {
+
+        padding: 10px;
+    }
 }
 </style>
