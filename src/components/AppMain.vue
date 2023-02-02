@@ -5,6 +5,8 @@ import AppJournal from './main-section/AppJournal.vue'
 import AppRecipes from './main-section/AppRecipes.vue';
 import CulinaryCollection from './main-section/CulinaryCollection.vue';
 
+import FoodCorner from './main-section/FoodCorner.vue';
+
 export default {
     data() {
         return {
@@ -13,7 +15,7 @@ export default {
 
     },
 
-    components: { AppJournal, AppRecipes, CulinaryCollection }
+    components: { AppJournal, AppRecipes, CulinaryCollection, FoodCorner }
 
 
 }
@@ -28,7 +30,7 @@ export default {
 
     <culinary-collection></culinary-collection>
 
-    <section>
+    <section class="py-5">
         <div class="d-flex justify-content-between">
             <div class="col-6 text-start">
                 <h4 class="text-uppercase">Farm to Table</h4>
@@ -40,6 +42,8 @@ export default {
             </div>
         </div>
     </section>
+
+    <food-corner></food-corner>
 
 
 </template>
