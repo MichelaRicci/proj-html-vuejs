@@ -66,3 +66,11 @@ export const recipes = [
   },
 ];
 
+export const RecipeArticle = [
+  {
+    img: 'yogurt-nan.jpg',
+    title: 'Lunch Favourite with Salad, Naan And Beans',
+    tags: 'Bakery, Featured, Healthy, Latest Recipes, Staff Picks',
+    text: 'Suspendisse at sempre odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidut posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id'
+  }
+]

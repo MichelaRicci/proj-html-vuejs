@@ -14,7 +14,8 @@ export default {
         title: String,
         author: String,
         date: String,
-        text: String
+        text: String,
+        tags: String
     },
 
 
@@ -34,6 +35,8 @@ export default {
         <img :src="imgSrc" :alt="title">
         <h4>{{ title }}</h4>
         <p>{{ author }} <span>{{ date }}</span></p>
+        <p>{{ tags }}</p>
+        <p>{{ text }}</p>
     </div>
 
 
