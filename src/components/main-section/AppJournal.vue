@@ -1,11 +1,13 @@
 <script>
-
+import { foodies } from '../../data-card';
 import AppCard from '../card/AppCard.vue'
 
 export default {
     name: 'AppJournal',
-
-    components: { AppCard }
+    components: { AppCard },
+    data() {
+        return { foodies }
+    }
 }
 
 </script>
@@ -13,12 +15,9 @@ export default {
 <template>
 
     <div class="d-flex justify-content-between">
-
-        <AppCard></AppCard>
-
-        <AppCard></AppCard>
-
-        <AppCard></AppCard>
+        <h4>titolo</h4>
+        <app-card v-for="foodie in foodies" :key="foodie.title" :date="foodie.date" :author="foodie.author"
+            :img="foodie.img" :title="foodie.title"></app-card>
     </div>
 
 

@@ -1,12 +1,12 @@
 <script>
-import { store } from '../../data-card';
+
 
 
 export default {
     name: 'AppCard',
 
     data() {
-        return { store }
+        return {}
     },
 
     props: {
@@ -18,15 +18,20 @@ export default {
     },
 
 
+    computed: {
+        imgSrc() {
+            const url = new URL(`../../assets/img/${this.img}`, import.meta.url);
+            return url.href;
+        }
+    },
+
 }
 
 </script>
 
 <template>
-
     <div>
-
-        <img :src="`../../assets/img/${img}.jpg`" :alt="title">
+        <img :src="imgSrc" :alt="title">
         <h4>{{ title }}</h4>
         <p>{{ author }} <span>{{ date }}</span></p>
     </div>

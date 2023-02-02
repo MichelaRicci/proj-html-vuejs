@@ -23,7 +23,7 @@ export default {
 
     <header>
 
-        <TopHeader></TopHeader>
+        <top-header></top-header>
 
         <div><img src="../assets/img/avada-food-logo.png" alt=""></div>
         <div>
@@ -36,7 +36,7 @@ export default {
             </nav>
         </div>
 
-        <Jumbotron></Jumbotron>
+        <jumbotron></jumbotron>
 
 
     </header>
