@@ -14,8 +14,9 @@ export default {
 
 <template>
 
+    <h4 class="text-uppercase">Foodie Journal</h4>
+
     <div class="d-flex justify-content-between">
-        <h4>titolo</h4>
         <app-card v-for="foodie in foodies" :key="foodie.title" :date="foodie.date" :author="foodie.author"
             :img="foodie.img" :title="foodie.title"></app-card>
     </div>
