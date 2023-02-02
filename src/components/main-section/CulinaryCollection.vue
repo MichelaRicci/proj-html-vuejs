@@ -15,17 +15,24 @@ export default {
 
 <template>
 
-    <h4 class="text-uppercase">Culinary Collection</h4>
-    <p>Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus non nunc lobortis.</p>
+    <section class="py-5">
 
-    <div class="d-flex container">
-        <div class="d-flex flex-wrap justify-content-between">
-            <app-card v-for="pic in picsart" :key="pic.id" :img="pic.img" :alt="pic.name" :label="pic.name"
-                class="col-3 text-uppercase bg-white  mx-0">
-            </app-card>
+        <div class="col-6 offset-3 pb-4">
+            <h4 class="text-uppercase">Culinary Collection</h4>
+            <p>Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus non nunc
+                lobortis.</p>
         </div>
 
-    </div>
+        <div class="d-flex container">
+            <div class="d-flex flex-wrap justify-content-between">
+                <app-card v-for="pic in picsart" :key="pic.id" :img="pic.img" :alt="pic.name" :label="pic.name"
+                    class="col-3 text-uppercase bg-white  mx-0">
+                </app-card>
+            </div>
+
+        </div>
+
+    </section>
 
 
 </template>

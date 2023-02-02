@@ -43,4 +43,8 @@ ul {
   }
 
 }
+
+button {
+  background-color: $teal;
+}
 </style>

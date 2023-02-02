@@ -21,7 +21,7 @@ export default {
 
     <div class="container">
 
-        <div class="d-flex row-cols-4 footer">
+        <div class="d-flex row-cols-4 footer text-start">
 
             <div>
                 <img src="../assets/img/avada-food-logo-footer.png" alt="logo">
@@ -35,20 +35,23 @@ export default {
 
             <nav>
                 <ul class="d-flex flex-column">
-                    <li v-for=" item in footerList"><a href="#">{{ item }}</a></li>
+                    <li class="py-2" v-for=" item in footerList" :key="item.footerList"><a class="fw-bold" href="#">{{
+                        item
+                    }}</a></li>
                 </ul>
             </nav>
-            <div>
-                <h6 class="text-uppercase">Contact</h6>
+            <div class="contacts">
+                <h6 class="text-uppercase fw-bold">Contact</h6>
                 <ul class="d-flex flex-column">
-                    <li v-for=" contact in contacts"><a href="#">{{ contact }}</a></li>
+                    <li class="py-2" v-for=" contact in contacts" :key="contact in contacts"><a class=" text-start"
+                            href="#">{{ contact }}</a></li>
                 </ul>
 
             </div>
             <div>
-                <h6 class="text-uppercase">Get Our App</h6>
+                <h6 class="text-uppercase fw-bold">Get Our App!</h6>
                 <div class="app"><img src="../assets/img/download-android.png" alt="android"></div>
-                <div class="app"><img src="../assets/img/download-app-store.png" alt="app-store"></div>
+                <div class="app py-3"><img src="../assets/img/download-app-store.png" alt="app-store"></div>
 
             </div>
 
@@ -81,8 +84,15 @@ h6 {
 
 
     a {
-
         padding: 10px;
+        padding-left: 0;
+    }
+}
+
+.contacts {
+    ul {
+        margin-left: 0;
+        padding-left: 0;
     }
 }
 </style>
