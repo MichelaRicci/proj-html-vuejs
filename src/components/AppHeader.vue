@@ -48,16 +48,6 @@ img {
     width: 100px;
 }
 
-nav a {
-
-    padding: 40px;
-    text-decoration: none;
-    color: #67615A;
-
-}
-
-
-
 .fa-solid {
 
     color: #67615A;

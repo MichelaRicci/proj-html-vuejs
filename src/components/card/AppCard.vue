@@ -12,6 +12,7 @@ export default {
     props: {
         img: String,
         title: String,
+        label: String,
         author: String,
         date: String,
         text: String,
@@ -34,6 +35,7 @@ export default {
     <div class="bg-white">
         <img class=" img-fluid" :src="imgSrc" :alt="title">
         <h4>{{ title }}</h4>
+        <h6>{{ label }}</h6>
         <p>{{ author }} <span>{{ date }}</span></p>
         <p>{{ tags }}</p>
         <p>{{ text }}</p>

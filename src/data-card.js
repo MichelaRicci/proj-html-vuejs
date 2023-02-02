@@ -79,42 +79,42 @@ export const picsart = [
   {
     id: '1',
     img: 'picsart/drinks-recipes.png',
-    title: 'Drinks'
+    name: 'Drinks'
   },
   {
     id: '2',
     img: 'picsart/soups-recipes.png',
-    title: 'Soups'
+    name: 'Soups'
   },
   {
     id: '3',
     img: 'picsart/baking-recipes.png',
-    title: 'Bakery'
+    name: 'Bakery'
   },
   {
     id: '4',
     img: 'picsart/dinner-recipes.png',
-    title: 'Dinner'
+    name: 'Dinner'
   },
   {
     id: '5',
     img: 'picsart/healthy-recipes.png',
-    title: 'Healthy'
+    name: 'Healthy'
   },
   {
     id: '6',
     img: 'picsart/staff-picks.png',
-    title: 'Staff Picks'
+    name: 'Staff Picks'
   },
   {
     id: '7',
     img: 'picsart/premium-recipes.png',
-    title: 'Appetizers'
+    name: 'Appetizers'
   },
   {
     id: '8',
     img: 'picsart/quick-easy-recipes.png',
-    title: 'Quick Easy Recipes'
+    name: 'Quick Easy Recipes'
   },
 ];
 
@@ -156,5 +156,5 @@ export const articleGallery = [
     date: 'March 25th, 2019'
 
   }
-]
+];
 

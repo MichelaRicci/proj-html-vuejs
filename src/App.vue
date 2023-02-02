@@ -21,8 +21,18 @@ export default {
 @use './assets/scss/partials/variables' as *;
 @use './assets/scss/style.scss' as *;
 
+
+
 #app {
   background-color: $lightgray;
+}
+
+nav a {
+
+  padding: 40px;
+  text-decoration: none;
+  color: #67615A;
+
 }
 
 ul {
