@@ -21,10 +21,9 @@ export default {
 
     <div class="d-flex container">
 
-        <recipe-article class="col-6"></recipe-article>
+        <recipe-article class="col-7"></recipe-article>
         <div class="d-flex flex-wrap col-6">
-            <app-card v-for="recipe in recipes" :key="recipe.id" :img="recipe.img" :alt="recipe.title"
-                class="col-6 p-2">
+            <app-card v-for="recipe in recipes" :key="recipe.id" :img="recipe.img" :alt="recipe.title" class="col-5">
             </app-card>
         </div>
 

@@ -32,8 +32,8 @@ export default {
 </script>
 
 <template>
-    <div class="bg-white">
-        <img class=" img-fluid" :src="imgSrc" :alt="title">
+    <div class="mycard">
+        <img class="img-fluid" :src="imgSrc" :alt="title">
         <h4>{{ title }}</h4>
         <h6>{{ label }}</h6>
         <p>{{ author }} <span>{{ date }}</span></p>
@@ -46,5 +46,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+.mycard {
+    margin: 10px;
+}
 </style>

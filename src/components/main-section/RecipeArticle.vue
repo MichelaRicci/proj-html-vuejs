@@ -16,7 +16,7 @@ export default {
 <template>
 
     <app-card v-for="recipe in RecipeArticle" :key="recipe.title" :img="recipe.img" :alt="recipe.title"
-        :tags="recipe.tags" :text="recipe.text" class="col-5"></app-card>
+        :tags="recipe.tags" :text="recipe.text" class="col-6 bg-white"></app-card>
 
 
 
