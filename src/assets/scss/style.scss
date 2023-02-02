@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Vidaloka&display=swap');
+
 body {
     margin: 0 auto;
     width: 1400px;
     background-color: #f5f5f1;
+}
 
+h4 {
+    font-family: 'Vida Loka', serif;
+}
+
+.text-uppercase {
+    font-family: 'Fira Sans', sans-serif;
 }
