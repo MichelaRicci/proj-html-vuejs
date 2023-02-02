@@ -23,3 +23,46 @@ export const foodies = [
   }
 ];
 
+export const recipes = [
+  {
+    id: '1',
+    img: 'mixed-fruits.jpg',
+    title: 'mixed-fruits'
+  },
+  {
+    id: '2',
+    img: 'r-michelle-tsang.jpg',
+    title: 'r-michelle-tsang',
+  },
+  {
+    id: '3',
+    img: 'r-maarten-van-den-heuvel.jpg',
+    title: 'r-maarten-van-den-heuvel',
+  },
+  {
+    id: '4',
+    img: 'fi-fruit.jpg',
+    title: 'fi-fruit',
+  },
+  {
+    id: '5',
+    img: 'r-rachel-park.jpg',
+    title: 'r-rachel-park',
+  },
+  {
+    id: '6',
+    img: 'quick-summer-drink.jpg',
+    title: 'uick-summer-drink'
+  },
+  {
+    id: '7',
+    img: 'perfect-cosmopolitan.jpg',
+    title: 'perfect-cosmopolitan',
+  },
+  {
+    id: '8',
+    img: 'r-brooke-lark.jpg',
+    title: 'r-brooke-lark',
+  },
+];
+

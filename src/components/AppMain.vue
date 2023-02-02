@@ -1,6 +1,7 @@
 <script>
 
 import AppJournal from './main-section/AppJournal.vue'
+import AppRecipes from './main-section/AppRecipes.vue';
 
 export default {
     data() {
@@ -10,7 +11,7 @@ export default {
 
     },
 
-    components: { AppJournal }
+    components: { AppJournal, AppRecipes }
 
 
 }
@@ -19,7 +20,9 @@ export default {
 
 <template>
 
-    <AppJournal></AppJournal>
+    <app-journal></app-journal>
+
+    <app-recipes></app-recipes>
 
 </template>
 
