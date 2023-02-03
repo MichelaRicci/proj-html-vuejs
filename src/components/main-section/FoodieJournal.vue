@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-    <section class="bg-white">
+    <section class="bg-white container">
 
         <h4 class="text-uppercase">Foodie Journal</h4>
 

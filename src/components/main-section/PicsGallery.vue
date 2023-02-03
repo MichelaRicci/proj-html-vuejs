@@ -16,7 +16,7 @@ export default {
 
 <template>
 
-    <div class="container">
+    <div>
         <div class="d-flex">
             <app-card v-for="pic in picsGallery" :key="pic.id" :img="pic.img" :alt="pic.title" class="mx-0">
             </app-card>

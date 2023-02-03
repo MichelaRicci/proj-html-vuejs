@@ -1,7 +1,7 @@
 <script>
 
 
-import AppJournal from './main-section/AppJournal.vue'
+import AppJournal from './main-section/FoodieJournal.vue'
 import AppRecipes from './main-section/AppRecipes.vue';
 import CulinaryCollection from './main-section/CulinaryCollection.vue';
 
@@ -32,7 +32,7 @@ export default {
 
     <culinary-collection></culinary-collection>
 
-    <section class="py-5">
+    <section class="py-5 container">
         <div class="d-flex justify-content-between">
             <div class="col-6 text-start">
                 <h4 class="text-uppercase">Farm to Table</h4>
@@ -40,7 +40,7 @@ export default {
                     lobortis.</p>
             </div>
             <div>
-                <button type="button" class="text-uppercase px-5">Read our blog</button>
+                <button type="button" class="text-uppercase px-5 me-4">Read our blog</button>
             </div>
         </div>
     </section>

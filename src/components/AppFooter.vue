@@ -19,9 +19,9 @@ export default {
 
 <template>
 
-    <div class="container">
+    <footer class="">
 
-        <div class="d-flex row-cols-4 footer text-start">
+        <div class="d-flex row-cols-4 text-start">
 
             <div>
                 <img src="../assets/img/avada-food-logo-footer.png" alt="logo">
@@ -59,15 +59,17 @@ export default {
 
 
         </div>
-    </div>
+    </footer>
 
 </template>
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables';
 
-.footer {
+footer {
     padding-top: 30px;
+
+    background-color: #ffffff;
 }
 
 h6 {
