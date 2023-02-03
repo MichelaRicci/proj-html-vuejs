@@ -17,13 +17,15 @@ export default {
 
 <template>
 
-    <h4 class="text-uppercase">Popular Recipes</h4>
+    <h4 class="text-uppercase mt-5">Popular Recipes</h4>
+
 
     <div class="d-flex container">
 
         <recipe-article class="col-7"></recipe-article>
         <div class="d-flex flex-wrap col-6">
-            <app-card v-for="recipe in recipes" :key="recipe.id" :img="recipe.img" :alt="recipe.title" class="col-5">
+            <app-card v-for=" recipe in recipes" :key="recipe.id" :img="recipe.img" :alt="recipe.title"
+                class="col-5 text-start">
             </app-card>
         </div>
 
@@ -33,5 +35,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.text-start {
+    text-align: left;
 
+}
 </style>

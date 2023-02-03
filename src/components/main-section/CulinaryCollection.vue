@@ -26,7 +26,7 @@ export default {
         <div class="d-flex container">
             <div class="d-flex flex-wrap justify-content-between">
                 <app-card v-for="pic in picsart" :key="pic.id" :img="pic.img" :alt="pic.name" :label="pic.name"
-                    class="col-3 text-uppercase bg-white  mx-0">
+                    class="col- text-uppercase bg-white  mx-0 pic-card">
                 </app-card>
             </div>
 
@@ -37,10 +37,17 @@ export default {
 
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Vidaloka&display=swap');
 
 .text-uppercase {
     font-family: 'Fira Sans', sans-serif;
+}
+
+.pic-card {
+    width: 22%;
+    padding: 10px 80px;
+    margin-bottom: 20px;
+
 }
 </style>

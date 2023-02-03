@@ -21,15 +21,15 @@ export default {
 
 <template>
 
-    <header>
+    <header class="bg-white">
 
         <top-header></top-header>
 
-        <div><img src="../assets/img/avada-food-logo.png" alt=""></div>
+        <div><img class="mb-4" src="../assets/img/avada-food-logo.png" alt="logo"></div>
         <div>
             <nav class="d-flex justify-content-around">
                 <ul>
-                    <li v-for="item in navList"><a href="#">{{ item }}</a></li>
+                    <li class="fw-bold" v-for="item in navList"><a href="#">{{ item }}</a></li>
                     <li><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></li>
 
                 </ul>
@@ -45,7 +45,7 @@ export default {
 
 <style lang='scss' scoped>
 img {
-    width: 100px;
+    width: 150px;
 }
 
 .fa-solid {

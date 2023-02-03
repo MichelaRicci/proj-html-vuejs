@@ -34,9 +34,10 @@ export default {
 
     <section class="py-5 container">
         <div class="d-flex justify-content-between">
-            <div class="col-6 text-start">
-                <h4 class="text-uppercase">Farm to Table</h4>
-                <p>Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus non nunc
+            <div class="col-6">
+                <h4 class="text-uppercase  text-start">Farm to Table</h4>
+                <p class="text-start">Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus
+                    lacus non nunc
                     lobortis.</p>
             </div>
             <div>

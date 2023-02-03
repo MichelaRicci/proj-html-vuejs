@@ -16,7 +16,7 @@ export default {
 
 <template>
 
-    <div class="container">
+    <div class="container pb-5">
 
         <div class="d-flex flex-wrap col-8">
             <app-card v-for="article in articlesGallery" :key="article.id" :img="article.img" :alt="article.title"
@@ -24,7 +24,7 @@ export default {
             </app-card>
 
 
-            <div>
+            <div class="m-start">
                 <button type="button" class="text-uppercase px-5">Load more posts</button>
             </div>
         </div>
@@ -35,9 +35,12 @@ export default {
 
 <style lang="scss" scoped>
 button {
-    width: 690px;
+    width: 740px;
     background-color: #EDEDE7;
     color: #000000;
+    margin-left: 10px;
+
+
 
 }
 </style>

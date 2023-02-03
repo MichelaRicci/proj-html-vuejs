@@ -9,11 +9,13 @@ export default {
 
 <template>
 
-    <section class="container">
-        <div><img src="../../assets/img/jumbotron.jpg" alt=""></div>
+    <section>
+        <img src="../../assets/img/jumbotron.jpg" alt="">
     </section>
 </template>
 
-<style lang="scss">
-
+<style lang="scss" scoped>
+img {
+    width: 100%;
+}
 </style>

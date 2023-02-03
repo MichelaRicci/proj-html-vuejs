@@ -11,8 +11,8 @@ export default {
 <template>
 
     <div class="container">
-        <nav class="d-flex justify-content-between">
-            <ul class="nav-left">
+        <nav class="d-flex justify-content-between py-4">
+            <ul class="nav-left text-small">
                 <li><a href="#">Download App<span>iOS</span></a></li>
                 <li><a href="#">Advertise with us</a></li>
             </ul>
@@ -35,5 +35,9 @@ nav a {
     text-decoration: none;
     color: #888786;
 
+}
+
+.text-small {
+    font-size: 11px;
 }
 </style>
