@@ -18,7 +18,7 @@ export default {
 
     <div>
         <div class="d-flex">
-            <app-card v-for="pic in picsGallery" :key="pic.id" :img="pic.img" :alt="pic.title" class="mx-0">
+            <app-card v-for="pic in picsGallery" :key="pic.id" :img="pic.img" :alt="pic.title" class="m-0 p-0">
             </app-card>
         </div>
 
@@ -28,5 +28,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+img {
+    padding-bottom: 0;
+}
 </style>
