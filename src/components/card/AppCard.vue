@@ -33,12 +33,12 @@ export default {
 
 <template>
     <div class="mycard">
-        <img class="img-fluid" :src="imgSrc" :alt="title">
-        <h4>{{ title }}</h4>
-        <h6>{{ label }}</h6>
-        <p>{{ author }} <span>{{ date }}</span></p>
-        <p>{{ tags }}</p>
-        <p>{{ text }}</p>
+        <img v-if="img" class="img-fluid" :src="imgSrc" :alt="title">
+        <h4 v-if="title">{{ title }}</h4>
+        <h6 v-if="label">{{ label }}</h6>
+        <p v-if="author">{{ author }} <span>{{ date }}</span></p>
+        <p v-if="tags">{{ tags }}</p>
+        <p v-if="text">{{ text }}</p>
     </div>
 
 
