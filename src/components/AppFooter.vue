@@ -67,6 +67,7 @@ export default {
 @use '../assets/scss/partials/variables';
 
 footer {
+
     padding-top: 30px;
 
     background-color: #ffffff;
